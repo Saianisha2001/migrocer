@@ -579,6 +579,10 @@ $(() => {
             );
         })[0]["name"];
 
+        console.log(name);
+
         $("#showname").val(name);
+        let resultEl = document.getElementById("result");
+        resultEl.textContent = name;
     });
 });
