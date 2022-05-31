@@ -1,575 +1,584 @@
 var data = [
-  {
-      "name": "DECCANMUDRA TELANGANA SONA RICE 5KG",
-      "id": 1,
-      "category_level1": "Grocery & Staples",
-      "category_level2": "Rice & Rice Products",
-      "category_level3": "Rice"
-  },
-  {
-      "name": "DECCAN MUDRA TELANGANA SONA RICE 1 KG",
-      "id": 2,
-      "category_level1": "Grocery & Staples",
-      "category_level2": "Rice & Rice Products",
-      "category_level3": "Rice"
-  },
-  {
-      "name": "DECCAN MUDRA TELANGANA SONA RICE ORGANIC 1KG",
-      "id": 3,
-      "category_level1": "Grocery & Staples",
-      "category_level2": "Organic Staples",
-      "category_level3": "Organic Rice, Other Rice Products"
-  },
-  {
-      "name": "DECCAN MUDRA TELANGANA SONA RICE FLOUR 1KG",
-      "id": 4,
-      "category_level1": "Grocery & Staples",
-      "category_level2": "Organic Staples",
-      "category_level3": "Organic Flours & Sooji"
-  },
-  {
-      "name": "Brown Rice",
-      "id": 5,
-      "category_level1": "Grocery & Staples",
-      "category_level2": "Rice & Rice Products",
-      "category_level3": "Boiled & Steam Rice"
-  },
-  {
-      "name": "Fortune Rice Bran Oil",
-      "id": 6,
-      "category_level1": "Grocery & Staples",
-      "category_level2": "Edible Oils & Ghee",
-      "category_level3": "Blended Cooking Oils"
-  },
-  {
-      "name": "Jaggery cubes ",
-      "id": 7,
-      "category_level1": "Grocery & Staples",
-      "category_level2": "Salt, Sugar & Jaggery",
-      "category_level3": "Jaggery"
-  },
-  {
-      "name": "Hello life refined sunflower oil 5 ltr ",
-      "id": 8,
-      "category_level1": "Grocery & Staples",
-      "category_level2": "Edible Oils & Ghee",
-      "category_level3": "Sunflower, Rice Bran Oil"
-  },
-  {
-      "name": "ID Natural Panner",
-      "id": 9,
-      "category_level1": "Bakery, Cakes & Dairy",
-      "category_level2": "Dairy",
-      "category_level3": "Paneer & Curd"
-  },
-  {
-      "name": "Britannia Milk Slice Milk White Bread",
-      "id": 10,
-      "category_level1": "Bakery, Cakes & Dairy",
-      "category_level2": "Breads & Buns",
-      "category_level3": "Milk, White & Sandwich"
-  },
-  {
-      "name": "Nandini Smart Milk",
-      "id": 11,
-      "category_level1": "Bakery, Cakes & Dairy",
-      "category_level2": "Dairy",
-      "category_level3": "Milk"
-  },
-  {
-      "name": "Sapota",
-      "id": 12,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Fresh Fruits",
-      "category_level3": "Banana, Sapota & Papaya"
-  },
-  {
-      "name": "Avocado",
-      "id": 13,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Fresh Fruits",
-      "category_level3": "Seasonal Fruits"
-  },
-  {
-      "name": "Sweet Tamarind Box",
-      "id": 14,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Exotic Fruits & Veggies",
-      "category_level3": "Exotic Fruits"
-  },
-  {
-      "name": "Indian Gooseberry - Amla",
-      "id": 15,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Exotic Fruits & Veggies",
-      "category_level3": "Exotic Vegetables"
-  },
-  {
-      "name": "Baby Corn - Peeled",
-      "id": 16,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Cuts & Sprouts",
-      "category_level3": "Vegetables Chopped And Peeled"
-  },
-  {
-      "name": "Grapes Red Globe",
-      "id": 17,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Fresh Fruits",
-      "category_level3": "Seasonal Fruits"
-  },
-  {
-      "name": "Grapes Bangalore Blue With Seed",
-      "id": 18,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Fresh Fruits",
-      "category_level3": "Seasonal Fruits"
-  },
-  {
-      "name": "Capsicum - Yellow",
-      "id": 19,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Fresh Vegetables",
-      "category_level3": "Coccinia, Cucumber & Capsicum"
-  },
-  {
-      "name": "Local beans",
-      "id": 20,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Fresh Vegetables",
-      "category_level3": "Beans, Brinjals & Okra"
-  },
-  {
-      "name": "Coconut",
-      "id": 21,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Fresh Fruits",
-      "category_level3": "Seasonal Fruits"
-  },
-  {
-      "name": "Sahaja Aharam Brinjal",
-      "id": 22,
-      "category_level1": "Fruits & Vegetables",
-      "category_level2": "Fresh Vegetables",
-      "category_level3": "Beans, Brinjals & Okra"
-  },
-  {
-      "name": "Hersheys Syrup Strawberry Flavour",
-      "id": 23,
-      "category_level1": "Beverages",
-      "category_level2": "Fruit Juices & Drinks",
-      "category_level3": "Syrups & Concentrates"
-  },
-  {
-      "name": "Appy Fizz",
-      "id": 24,
-      "category_level1": "Beverages",
-      "category_level2": "Fruit Juices & Drinks",
-      "category_level3": "Juices"
-  },
-  {
-      "name": "Appy Fizz Bottle",
-      "id": 25,
-      "category_level1": "Beverages",
-      "category_level2": "Fruit Juices & Drinks",
-      "category_level3": "Juices"
-  },
-  {
-      "name": "Monster Energy Ultra",
-      "id": 26,
-      "category_level1": "Beverages",
-      "category_level2": "Energy & Soft Drinks",
-      "category_level3": "Cold Drinks"
-  },
-  {
-      "name": "Monster Mango Loco Energy Juice",
-      "id": 27,
-      "category_level1": "Beverages",
-      "category_level2": "Energy & Soft Drinks",
-      "category_level3": "Juices"
-  },
-  {
-      "name": "RedBull Redbull",
-      "id": 28,
-      "category_level1": "Beverages",
-      "category_level2": "Energy & Health Drinks",
-      "category_level3": "Energy Drinks"
-  },
-  {
-      "name": "bru instant 200gm",
-      "id": 29,
-      "category_level1": "Beverages",
-      "category_level2": "Tea & Coffee",
-      "category_level3": "Coffee"
-  },
-  {
-      "name": "MINUTE MAID APPLE POP",
-      "id": 30,
-      "category_level1": "Beverages",
-      "category_level2": "Energy & Soft Drinks",
-      "category_level3": "Cold Drinks"
-  },
-  {
-      "name": "Kalpa Pani Poori With Masala 130G+30G",
-      "id": 31,
-      "category_level1": "Snacks & Branded Foods",
-      "category_level2": "Ready to Cook & Eat",
-      "category_level3": "Papads, Ready To Fry"
-  },
-  {
-      "name": "Kalpa Manchuria Ready Mix 120G+20G",
-      "id": 32,
-      "category_level1": "Snacks & Branded Foods",
-      "category_level2": "Ready to Cook & Eat",
-      "category_level3": "Breakfast & Snack Mixes"
-  },
-  {
-      "name": "Chings Sauce - Green Chilli",
-      "id": 33,
-      "category_level1": "Snacks & Branded Foods",
-      "category_level2": "Spreads, Sauces & Ketchup",
-      "category_level3": "Chilli & Soya Sauce"
-  },
-  {
-      "name": "Weikfield Cornflour",
-      "id": 34,
-      "category_level1": "Snacks & Branded Foods",
-      "category_level2": "Ready to Cook & Eat",
-      "category_level3": "Home Baking"
-  },
-  {
-      "name": "Galaxy Chocolate Fruit And Nut",
-      "id": 35,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Chocolates & Biscuits",
-      "category_level3": "International Chocolates"
-  },
-  {
-      "name": "Harima Foods Fenugreek Powder",
-      "id": 36,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Cooking & Baking Needs",
-      "category_level3": "Herbs, Seasonings & Rubs"
-  },
-  {
-      "name": "Keya Rosemary",
-      "id": 37,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Cooking & Baking Needs",
-      "category_level3": "Herbs, Seasonings & Rubs"
-  },
-  {
-      "name": "Keya Mint",
-      "id": 38,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Cooking & Baking Needs",
-      "category_level3": "Herbs, Seasonings & Rubs"
-  },
-  {
-      "name": "Keya Lemongrass",
-      "id": 39,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Cooking & Baking Needs",
-      "category_level3": "Herbs, Seasonings & Rubs"
-  },
-  {
-      "name": "Flyberry Gourmet Medjoul Dates",
-      "id": 40,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Snacks, Dry Fruits, Nuts",
-      "category_level3": "Dry Fruits & Berries"
-  },
-  {
-      "name": "Harika Mint Leaf Spice Powder- Pudina",
-      "id": 41,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Cooking & Baking Needs",
-      "category_level3": "Herbs, Seasonings & Rubs"
-  },
-  {
-      "name": "Harika Horse Gram Spice Powder",
-      "id": 42,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Cooking & Baking Needs",
-      "category_level3": "Herbs, Seasonings & Rubs"
-  },
-  {
-      "name": "Harika Garlic Chilli Powder Velluli Karam",
-      "id": 43,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Cooking & Baking Needs",
-      "category_level3": "Herbs, Seasonings & Rubs"
-  },
-  {
-      "name": "Harika Amla Spice Powder - Usirikaya Karam Podi",
-      "id": 44,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Cooking & Baking Needs",
-      "category_level3": "Herbs, Seasonings & Rubs"
-  },
-  {
-      "name": "Gone Mad Choco Stick Twin Pack Wafer",
-      "id": 45,
-      "category_level1": "Gourmet & World Food",
-      "category_level2": "Chocolates & Biscuits",
-      "category_level3": "Crackers & Digestive"
-  },
-  {
-      "name": "FAST&UP",
-      "id": 46,
-      "category_level1": "Beauty & Hygiene",
-      "category_level2": "Health & Medicine",
-      "category_level3": "Supplements & Proteins"
-  },
-  {
-      "name": "Mirror",
-      "id": 47,
-      "category_level1": "Beauty & Hygiene",
-      "category_level2": "Makeup",
-      "category_level3": "Makeup Accessories"
-  },
-  {
-      "name": "Savlon Surface Disinfectant Spray",
-      "id": 48,
-      "category_level1": "Beauty & Hygiene",
-      "category_level2": "Bath & Hand Wash",
-      "category_level3": "Hand Wash & Sanitizers"
-  },
-  {
-      "name": "Lifebuoy Hand Sanitier",
-      "id": 49,
-      "category_level1": "Beauty & Hygiene",
-      "category_level2": "Bath & Hand Wash",
-      "category_level3": "Hand Wash & Sanitizers"
-  },
-  {
-      "name": "Daily Fresh Eggs 30 Pieces Pack",
-      "id": 50,
-      "category_level1": "Eggs, Meat & Seafood",
-      "category_level2": "Eggs",
-      "category_level3": "Farm Eggs"
-  },
-  {
-      "name": "Abhi Eggs Dose",
-      "id": 51,
-      "category_level1": "Eggs, Meat & Seafood",
-      "category_level2": "Eggs",
-      "category_level3": "Country Eggs"
-  },
-  {
-      "name": "Abhi Eggs Nutri Plus",
-      "id": 52,
-      "category_level1": "Eggs, Meat & Seafood",
-      "category_level2": "Eggs",
-      "category_level3": "Country Eggs"
-  },
-  {
-      "name": "Abhi Eggs Vitamin D3",
-      "id": 53,
-      "category_level1": "Eggs, Meat & Seafood",
-      "category_level2": "Eggs",
-      "category_level3": "Country Eggs"
-  },
-  {
-      "name": "HIT Lime Flower Insect Spray",
-      "id": 54,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Fresheners & Repellents",
-      "category_level3": "Insect Repellent"
-  },
-  {
-      "name": "Hit Cockroack Spray - Small",
-      "id": 55,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Fresheners & Repellents",
-      "category_level3": "Air Freshener"
-  },
-  {
-      "name": "Ariel Washing Detergent Powder - Matic Front Load",
-      "id": 56,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Detergents & Dishwash",
-      "category_level3": "Detergent Powder, Liquid"
-  },
-  {
-      "name": "HIT kills Hidden Cockroaches",
-      "id": 57,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Fresheners & Repellents",
-      "category_level3": "Insect Repellent"
-  },
-  {
-      "name": "Hit Gel Stick",
-      "id": 58,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Fresheners & Repellents",
-      "category_level3": "Insect Repellent"
-  },
-  {
-      "name": "HIT Chalk Cockroach Killer",
-      "id": 59,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Fresheners & Repellents",
-      "category_level3": "Insect Repellent"
-  },
-  {
-      "name": "HIT Pre Mixed Cubes -Kills Rats",
-      "id": 60,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Fresheners & Repellents",
-      "category_level3": "Insect Repellent"
-  },
-  {
-      "name": "Dettol Disinfectant Multi-Use Hygiene Liquid",
-      "id": 61,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "All Purpose Cleaners",
-      "category_level3": "Floor & Other Cleaners"
-  },
-  {
-      "name": "Def Dishwash Round",
-      "id": 62,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Detergents & Dishwash",
-      "category_level3": "Dishwash Liquids & Pastes"
-  },
-  {
-      "name": "Vim Power Of 100 Lemons",
-      "id": 63,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Detergents & Dishwash",
-      "category_level3": "Dishwash Bars & Powders"
-  },
-  {
-      "name": "Vim Dishwash Bar - Lemon",
-      "id": 64,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Detergents & Dishwash",
-      "category_level3": "Dishwash Liquids & Pastes"
-  },
-  {
-      "name": "Ariel Detergent Powder",
-      "id": 65,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Detergents & Dishwash",
-      "category_level3": "Detergent Powder, Liquid"
-  },
-  {
-      "name": "Ariel Colour Washing Detergent Powder",
-      "id": 66,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Detergents & Dishwash",
-      "category_level3": "Detergent Powder, Liquid"
-  },
-  {
-      "name": "Ariel Matic Front Load Washing Detergent Powder",
-      "id": 67,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Detergents & Dishwash",
-      "category_level3": "Detergent Powder, Liquid"
-  },
-  {
-      "name": "Disposable Spoons",
-      "id": 68,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Party & Festive Needs",
-      "category_level3": "Disposable Cups & Plates"
-  },
-  {
-      "name": "Buffet Green Plate 14",
-      "id": 69,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Party & Festive Needs",
-      "category_level3": "Disposable Cups & Plates"
-  },
-  {
-      "name": "Coconut Broom",
-      "id": 70,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Mops, Brushes & Scrubs",
-      "category_level3": "Brooms & Dust Pans"
-  },
-  {
-      "name": "Vim Liquid",
-      "id": 71,
-      "category_level1": "Cleaning & Household",
-      "category_level2": "Detergents & Dishwash",
-      "category_level3": "Dishwash Liquids & Pastes"
-  },
-  {
-      "name": "Hunter Rechargeable Mosquito Swatter Bat",
-      "id": 72,
-      "category_level1": "Kitchen, Garden & Pets",
-      "category_level2": "Appliances & Electricals",
-      "category_level3": "Battery & Electrical"
-  },
-  {
-      "name": "quick heal total security",
-      "id": 73,
-      "category_level1": "Appliances & Electronics",
-      "category_level2": "Home Appliances",
-      "category_level3": "Accessories"
-  },
-  {
-      "name": "quick heal internet security essentials",
-      "id": 74,
-      "category_level1": "Computers & Mobiles",
-      "category_level2": "Computer Accessories",
-      "category_level3": "Networking Devices"
-  }
+    {
+        name: "DECCANMUDRA TELANGANA SONA RICE 5KG",
+        id: 1,
+        category_level1: "Grocery & Staples",
+        category_level2: "Rice & Rice Products",
+        category_level3: "Rice",
+    },
+    {
+        name: "DECCAN MUDRA TELANGANA SONA RICE 1 KG",
+        id: 2,
+        category_level1: "Grocery & Staples",
+        category_level2: "Rice & Rice Products",
+        category_level3: "Rice",
+    },
+    {
+        name: "DECCAN MUDRA TELANGANA SONA RICE ORGANIC 1KG",
+        id: 3,
+        category_level1: "Grocery & Staples",
+        category_level2: "Organic Staples",
+        category_level3: "Organic Rice, Other Rice Products",
+    },
+    {
+        name: "DECCAN MUDRA TELANGANA SONA RICE FLOUR 1KG",
+        id: 4,
+        category_level1: "Grocery & Staples",
+        category_level2: "Organic Staples",
+        category_level3: "Organic Flours & Sooji",
+    },
+    {
+        name: "Brown Rice",
+        id: 5,
+        category_level1: "Grocery & Staples",
+        category_level2: "Rice & Rice Products",
+        category_level3: "Boiled & Steam Rice",
+    },
+    {
+        name: "Fortune Rice Bran Oil",
+        id: 6,
+        category_level1: "Grocery & Staples",
+        category_level2: "Edible Oils & Ghee",
+        category_level3: "Blended Cooking Oils",
+    },
+    {
+        name: "Jaggery cubes ",
+        id: 7,
+        category_level1: "Grocery & Staples",
+        category_level2: "Salt, Sugar & Jaggery",
+        category_level3: "Jaggery",
+    },
+    {
+        name: "Hello life refined sunflower oil 5 ltr ",
+        id: 8,
+        category_level1: "Grocery & Staples",
+        category_level2: "Edible Oils & Ghee",
+        category_level3: "Sunflower, Rice Bran Oil",
+    },
+    {
+        name: "ID Natural Panner",
+        id: 9,
+        category_level1: "Bakery, Cakes & Dairy",
+        category_level2: "Dairy",
+        category_level3: "Paneer & Curd",
+    },
+    {
+        name: "Britannia Milk Slice Milk White Bread",
+        id: 10,
+        category_level1: "Bakery, Cakes & Dairy",
+        category_level2: "Breads & Buns",
+        category_level3: "Milk, White & Sandwich",
+    },
+    {
+        name: "Nandini Smart Milk",
+        id: 11,
+        category_level1: "Bakery, Cakes & Dairy",
+        category_level2: "Dairy",
+        category_level3: "Milk",
+    },
+    {
+        name: "Sapota",
+        id: 12,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Fresh Fruits",
+        category_level3: "Banana, Sapota & Papaya",
+    },
+    {
+        name: "Avocado",
+        id: 13,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Fresh Fruits",
+        category_level3: "Seasonal Fruits",
+    },
+    {
+        name: "Sweet Tamarind Box",
+        id: 14,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Exotic Fruits & Veggies",
+        category_level3: "Exotic Fruits",
+    },
+    {
+        name: "Indian Gooseberry - Amla",
+        id: 15,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Exotic Fruits & Veggies",
+        category_level3: "Exotic Vegetables",
+    },
+    {
+        name: "Baby Corn - Peeled",
+        id: 16,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Cuts & Sprouts",
+        category_level3: "Vegetables Chopped And Peeled",
+    },
+    {
+        name: "Grapes Red Globe",
+        id: 17,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Fresh Fruits",
+        category_level3: "Seasonal Fruits",
+    },
+    {
+        name: "Grapes Bangalore Blue With Seed",
+        id: 18,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Fresh Fruits",
+        category_level3: "Seasonal Fruits",
+    },
+    {
+        name: "Capsicum - Yellow",
+        id: 19,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Fresh Vegetables",
+        category_level3: "Coccinia, Cucumber & Capsicum",
+    },
+    {
+        name: "Local beans",
+        id: 20,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Fresh Vegetables",
+        category_level3: "Beans, Brinjals & Okra",
+    },
+    {
+        name: "Coconut",
+        id: 21,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Fresh Fruits",
+        category_level3: "Seasonal Fruits",
+    },
+    {
+        name: "Sahaja Aharam Brinjal",
+        id: 22,
+        category_level1: "Fruits & Vegetables",
+        category_level2: "Fresh Vegetables",
+        category_level3: "Beans, Brinjals & Okra",
+    },
+    {
+        name: "Hersheys Syrup Strawberry Flavour",
+        id: 23,
+        category_level1: "Beverages",
+        category_level2: "Fruit Juices & Drinks",
+        category_level3: "Syrups & Concentrates",
+    },
+    {
+        name: "Appy Fizz",
+        id: 24,
+        category_level1: "Beverages",
+        category_level2: "Fruit Juices & Drinks",
+        category_level3: "Juices",
+    },
+    {
+        name: "Appy Fizz Bottle",
+        id: 25,
+        category_level1: "Beverages",
+        category_level2: "Fruit Juices & Drinks",
+        category_level3: "Juices",
+    },
+    {
+        name: "Monster Energy Ultra",
+        id: 26,
+        category_level1: "Beverages",
+        category_level2: "Energy & Soft Drinks",
+        category_level3: "Cold Drinks",
+    },
+    {
+        name: "Monster Mango Loco Energy Juice",
+        id: 27,
+        category_level1: "Beverages",
+        category_level2: "Energy & Soft Drinks",
+        category_level3: "Juices",
+    },
+    {
+        name: "RedBull Redbull",
+        id: 28,
+        category_level1: "Beverages",
+        category_level2: "Energy & Health Drinks",
+        category_level3: "Energy Drinks",
+    },
+    {
+        name: "bru instant 200gm",
+        id: 29,
+        category_level1: "Beverages",
+        category_level2: "Tea & Coffee",
+        category_level3: "Coffee",
+    },
+    {
+        name: "MINUTE MAID APPLE POP",
+        id: 30,
+        category_level1: "Beverages",
+        category_level2: "Energy & Soft Drinks",
+        category_level3: "Cold Drinks",
+    },
+    {
+        name: "Kalpa Pani Poori With Masala 130G+30G",
+        id: 31,
+        category_level1: "Snacks & Branded Foods",
+        category_level2: "Ready to Cook & Eat",
+        category_level3: "Papads, Ready To Fry",
+    },
+    {
+        name: "Kalpa Manchuria Ready Mix 120G+20G",
+        id: 32,
+        category_level1: "Snacks & Branded Foods",
+        category_level2: "Ready to Cook & Eat",
+        category_level3: "Breakfast & Snack Mixes",
+    },
+    {
+        name: "Chings Sauce - Green Chilli",
+        id: 33,
+        category_level1: "Snacks & Branded Foods",
+        category_level2: "Spreads, Sauces & Ketchup",
+        category_level3: "Chilli & Soya Sauce",
+    },
+    {
+        name: "Weikfield Cornflour",
+        id: 34,
+        category_level1: "Snacks & Branded Foods",
+        category_level2: "Ready to Cook & Eat",
+        category_level3: "Home Baking",
+    },
+    {
+        name: "Galaxy Chocolate Fruit And Nut",
+        id: 35,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Chocolates & Biscuits",
+        category_level3: "International Chocolates",
+    },
+    {
+        name: "Harima Foods Fenugreek Powder",
+        id: 36,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Cooking & Baking Needs",
+        category_level3: "Herbs, Seasonings & Rubs",
+    },
+    {
+        name: "Keya Rosemary",
+        id: 37,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Cooking & Baking Needs",
+        category_level3: "Herbs, Seasonings & Rubs",
+    },
+    {
+        name: "Keya Mint",
+        id: 38,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Cooking & Baking Needs",
+        category_level3: "Herbs, Seasonings & Rubs",
+    },
+    {
+        name: "Keya Lemongrass",
+        id: 39,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Cooking & Baking Needs",
+        category_level3: "Herbs, Seasonings & Rubs",
+    },
+    {
+        name: "Flyberry Gourmet Medjoul Dates",
+        id: 40,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Snacks, Dry Fruits, Nuts",
+        category_level3: "Dry Fruits & Berries",
+    },
+    {
+        name: "Harika Mint Leaf Spice Powder- Pudina",
+        id: 41,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Cooking & Baking Needs",
+        category_level3: "Herbs, Seasonings & Rubs",
+    },
+    {
+        name: "Harika Horse Gram Spice Powder",
+        id: 42,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Cooking & Baking Needs",
+        category_level3: "Herbs, Seasonings & Rubs",
+    },
+    {
+        name: "Harika Garlic Chilli Powder Velluli Karam",
+        id: 43,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Cooking & Baking Needs",
+        category_level3: "Herbs, Seasonings & Rubs",
+    },
+    {
+        name: "Harika Amla Spice Powder - Usirikaya Karam Podi",
+        id: 44,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Cooking & Baking Needs",
+        category_level3: "Herbs, Seasonings & Rubs",
+    },
+    {
+        name: "Gone Mad Choco Stick Twin Pack Wafer",
+        id: 45,
+        category_level1: "Gourmet & World Food",
+        category_level2: "Chocolates & Biscuits",
+        category_level3: "Crackers & Digestive",
+    },
+    {
+        name: "FAST&UP",
+        id: 46,
+        category_level1: "Beauty & Hygiene",
+        category_level2: "Health & Medicine",
+        category_level3: "Supplements & Proteins",
+    },
+    {
+        name: "Mirror",
+        id: 47,
+        category_level1: "Beauty & Hygiene",
+        category_level2: "Makeup",
+        category_level3: "Makeup Accessories",
+    },
+    {
+        name: "Savlon Surface Disinfectant Spray",
+        id: 48,
+        category_level1: "Beauty & Hygiene",
+        category_level2: "Bath & Hand Wash",
+        category_level3: "Hand Wash & Sanitizers",
+    },
+    {
+        name: "Lifebuoy Hand Sanitier",
+        id: 49,
+        category_level1: "Beauty & Hygiene",
+        category_level2: "Bath & Hand Wash",
+        category_level3: "Hand Wash & Sanitizers",
+    },
+    {
+        name: "Daily Fresh Eggs 30 Pieces Pack",
+        id: 50,
+        category_level1: "Eggs, Meat & Seafood",
+        category_level2: "Eggs",
+        category_level3: "Farm Eggs",
+    },
+    {
+        name: "Abhi Eggs Dose",
+        id: 51,
+        category_level1: "Eggs, Meat & Seafood",
+        category_level2: "Eggs",
+        category_level3: "Country Eggs",
+    },
+    {
+        name: "Abhi Eggs Nutri Plus",
+        id: 52,
+        category_level1: "Eggs, Meat & Seafood",
+        category_level2: "Eggs",
+        category_level3: "Country Eggs",
+    },
+    {
+        name: "Abhi Eggs Vitamin D3",
+        id: 53,
+        category_level1: "Eggs, Meat & Seafood",
+        category_level2: "Eggs",
+        category_level3: "Country Eggs",
+    },
+    {
+        name: "HIT Lime Flower Insect Spray",
+        id: 54,
+        category_level1: "Cleaning & Household",
+        category_level2: "Fresheners & Repellents",
+        category_level3: "Insect Repellent",
+    },
+    {
+        name: "Hit Cockroack Spray - Small",
+        id: 55,
+        category_level1: "Cleaning & Household",
+        category_level2: "Fresheners & Repellents",
+        category_level3: "Air Freshener",
+    },
+    {
+        name: "Ariel Washing Detergent Powder - Matic Front Load",
+        id: 56,
+        category_level1: "Cleaning & Household",
+        category_level2: "Detergents & Dishwash",
+        category_level3: "Detergent Powder, Liquid",
+    },
+    {
+        name: "HIT kills Hidden Cockroaches",
+        id: 57,
+        category_level1: "Cleaning & Household",
+        category_level2: "Fresheners & Repellents",
+        category_level3: "Insect Repellent",
+    },
+    {
+        name: "Hit Gel Stick",
+        id: 58,
+        category_level1: "Cleaning & Household",
+        category_level2: "Fresheners & Repellents",
+        category_level3: "Insect Repellent",
+    },
+    {
+        name: "HIT Chalk Cockroach Killer",
+        id: 59,
+        category_level1: "Cleaning & Household",
+        category_level2: "Fresheners & Repellents",
+        category_level3: "Insect Repellent",
+    },
+    {
+        name: "HIT Pre Mixed Cubes -Kills Rats",
+        id: 60,
+        category_level1: "Cleaning & Household",
+        category_level2: "Fresheners & Repellents",
+        category_level3: "Insect Repellent",
+    },
+    {
+        name: "Dettol Disinfectant Multi-Use Hygiene Liquid",
+        id: 61,
+        category_level1: "Cleaning & Household",
+        category_level2: "All Purpose Cleaners",
+        category_level3: "Floor & Other Cleaners",
+    },
+    {
+        name: "Def Dishwash Round",
+        id: 62,
+        category_level1: "Cleaning & Household",
+        category_level2: "Detergents & Dishwash",
+        category_level3: "Dishwash Liquids & Pastes",
+    },
+    {
+        name: "Vim Power Of 100 Lemons",
+        id: 63,
+        category_level1: "Cleaning & Household",
+        category_level2: "Detergents & Dishwash",
+        category_level3: "Dishwash Bars & Powders",
+    },
+    {
+        name: "Vim Dishwash Bar - Lemon",
+        id: 64,
+        category_level1: "Cleaning & Household",
+        category_level2: "Detergents & Dishwash",
+        category_level3: "Dishwash Liquids & Pastes",
+    },
+    {
+        name: "Ariel Detergent Powder",
+        id: 65,
+        category_level1: "Cleaning & Household",
+        category_level2: "Detergents & Dishwash",
+        category_level3: "Detergent Powder, Liquid",
+    },
+    {
+        name: "Ariel Colour Washing Detergent Powder",
+        id: 66,
+        category_level1: "Cleaning & Household",
+        category_level2: "Detergents & Dishwash",
+        category_level3: "Detergent Powder, Liquid",
+    },
+    {
+        name: "Ariel Matic Front Load Washing Detergent Powder",
+        id: 67,
+        category_level1: "Cleaning & Household",
+        category_level2: "Detergents & Dishwash",
+        category_level3: "Detergent Powder, Liquid",
+    },
+    {
+        name: "Disposable Spoons",
+        id: 68,
+        category_level1: "Cleaning & Household",
+        category_level2: "Party & Festive Needs",
+        category_level3: "Disposable Cups & Plates",
+    },
+    {
+        name: "Buffet Green Plate 14",
+        id: 69,
+        category_level1: "Cleaning & Household",
+        category_level2: "Party & Festive Needs",
+        category_level3: "Disposable Cups & Plates",
+    },
+    {
+        name: "Coconut Broom",
+        id: 70,
+        category_level1: "Cleaning & Household",
+        category_level2: "Mops, Brushes & Scrubs",
+        category_level3: "Brooms & Dust Pans",
+    },
+    {
+        name: "Vim Liquid",
+        id: 71,
+        category_level1: "Cleaning & Household",
+        category_level2: "Detergents & Dishwash",
+        category_level3: "Dishwash Liquids & Pastes",
+    },
+    {
+        name: "Hunter Rechargeable Mosquito Swatter Bat",
+        id: 72,
+        category_level1: "Kitchen, Garden & Pets",
+        category_level2: "Appliances & Electricals",
+        category_level3: "Battery & Electrical",
+    },
+    {
+        name: "quick heal total security",
+        id: 73,
+        category_level1: "Appliances & Electronics",
+        category_level2: "Home Appliances",
+        category_level3: "Accessories",
+    },
+    {
+        name: "quick heal internet security essentials",
+        id: 74,
+        category_level1: "Computers & Mobiles",
+        category_level2: "Computer Accessories",
+        category_level3: "Networking Devices",
+    },
 ];
 
-$( () => {
-    // const catArr= [... new Set(data.map(x => x.category_level1))];
-    // console.log(catArr.toString());
-    var catArr=[]
-    for(var i=0;i<data.length;i++)
-    {
-        catArr.push(data[i]['category_level1'])
-    }
+$(() => {
+    const catArr = [...new Set(data.map((x) => x.category_level1))];
+    console.log(catArr.toString());
     catArr.forEach((ele) => {
-    $('#cat1').append('<option value="${ele}">${ele}</option>')
-  });
-  
-    $('#cat1').on('change', function(){
-    var cat2Arr = [];
-    $('#cat2').html('<option value="">-- Select --</option>');
-    $('#showname').val('');
-    
-    data.forEach((ele,idx) => {
-        if(ele.category_level1 == this.value){
-        cat2Arr.push(ele.category_level2);
-      }
-    }) 
-    cat2Arr.forEach((ele, index) => {
-      $('#cat2').append('<option value="${ele}">${ele}</option>')
+        $("#cat1").append(`<option value=${ele}>${ele}</option>`);
     });
-  });
 
-  $('#cat2').on('change', function(){
-    var cat3Arr = [];
-    $('#cat3').html('<option value="">-- Select --</option>');
-    $('#showname').val('');
-    
-    data.forEach((ele,idx) => {
-        if(ele.category_level2 == this.value){
-        cat3Arr.push(ele.category_level3);
-      }
-    }) 
-    cat3Arr.forEach((ele, index) => {
-      $('#cat3').append(`<option value="${ele}">${ele}</option>`)
+    $("#cat1").on("change", function () {
+        var cat2Arr = [];
+        $("#cat2").html('<option value="">-- Select --</option>');
+        $("#showname").val("");
+
+        data.forEach((ele, idx) => {
+            if (ele.category_level1 == this.options[this.selectedIndex].text) {
+                if (!cat2Arr.includes(ele.category_level2)) {
+                    cat2Arr.push(ele.category_level2);
+                }
+            }
+        }); // End of data forEach function
+
+        cat2Arr.forEach((ele, index) => {
+            $("#cat2").append(`<option value=${ele}>${ele}</option>`);
+        });
     });
-  });
-  
-  $('#cat3').on('change', function(){
-    let category1         = $('#cat1').val();
-    let category2           = $('#cat2').val();
-    let category3           = $('#cat3').val();
-    let name  = data.filter(x => {
-        return x.category_level1 == category1 && x.category_level2 == category2 && x.category_level3 == category3;
-    })[0]['name']
-    
-    $('#showname').val(name);
-  })
-  
-}) 
+
+    $("#cat2").on("change", function () {
+        var cat3Arr = [];
+        $("#cat3").html('<option value="">-- Select --</option>');
+        $("#showname").val("");
+
+        data.forEach((ele, idx) => {
+            if (ele.category_level2 == this.options[this.selectedIndex].text) {
+                if (!cat3Arr.includes(ele.category_level3)) {
+                    cat3Arr.push(ele.category_level3);
+                }
+            }
+        });
+        cat3Arr.forEach((ele, index) => {
+            $("#cat3").append(`<option value="${ele}">${ele}</option>`);
+        });
+    });
+
+    $("#cat3").on("change", function () {
+        console.log(1);
+        let cat1ele = document.getElementById("cat1");
+        let cat2ele = document.getElementById("cat2");
+        let cat3ele = document.getElementById("cat3");
+        let category1 = cat1ele.options[cat1ele.selectedIndex].text;
+        let category2 = cat2ele.options[cat2ele.selectedIndex].text;
+        let category3 = cat3ele.options[cat3ele.selectedIndex].text;
+        console.log(category1);
+        console.log(1);
+        let name = data.filter((x) => {
+            return (
+                x.category_level1 == category1 &&
+                x.category_level2 == category2 &&
+                x.category_level3 == category3
+            );
+        })[0]["name"];
+
+        $("#showname").val(name);
+    });
+});
